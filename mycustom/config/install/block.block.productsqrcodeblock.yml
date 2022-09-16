@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - mycustom
+    - node
+  theme:
+    - olivero
+id: productsqrcodeblock
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: mycustom
+settings:
+  id: mycustom
+  label: 'Products QR Code Block'
+  label_display: '0'
+  provider: mycustom
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      products: products

@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.products
+  module:
+    - text
+_core:
+  default_config_hash: E5YzGkLEk3ePns2YkMEfNKROXTVb3uWUr1rNUkV7wq8
+id: node.products.body
+field_name: body
+entity_type: node
+bundle: products
+label: 'Product Description'
+description: 'Product Description'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,15 @@
+{
+    "name": "vishal.deshmukh/mycustom",
+    "description": "Custom Project for Products QR Code",
+    "type": "drupal-module",
+    "authors": [
+        {
+            "name": "vishal",
+            "email": "samra195@gmail.com"
+        }
+    ],
+    "require": {
+        "bacon/bacon-qr-code": "^2.0",
+        "endroid/qr-code": "^4.5"
+    }
+}
